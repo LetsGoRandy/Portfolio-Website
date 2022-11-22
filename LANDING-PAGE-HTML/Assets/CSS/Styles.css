@@ -168,7 +168,7 @@ p{
     height: auto;
 }
 
-.intro-content{
+.intro-content, .work-content{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -232,4 +232,34 @@ p{
 
 .gallery-img img:hover{
     transform: translate(3%, 3%) scale(1.2) rotate(5deg);
+}
+
+.responsive-table{
+    overflow: hidden;
+    overflow-x: auto;
+
+}
+
+table{
+    width: 100%;
+    min-width: 36rem;
+    border-collapse: collapse;
+}
+
+table caption{
+    font-style: italic;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+table td, table th{
+    border: 0.1rem solid var(--light-gray-color);
+    text-align: left;
+    padding: 1rem;
+    white-space: nowrap;;
+}
+
+tfoot td, table th{
+    background: var(--secondary-color);
 }
