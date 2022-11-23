@@ -145,15 +145,14 @@ p{
 
 .home-content{
     position: relative;
-    top: -8rem;
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: var(--gap);
     min-height: 100vh;
 }
 
-.home-text-content,
-.home-img{
+.home-text-content,.home-img, 
+.contact-text-content, .contact-img{
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -262,4 +261,16 @@ table td, table th{
 
 tfoot td, table th{
     background: var(--secondary-color);
+}
+
+.contact-content{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: var(--gap);
+    min-height: 100vh;
+}
+
+.contact-form{
+    grid-column: span 2;
 }
