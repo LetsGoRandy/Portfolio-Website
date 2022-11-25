@@ -288,7 +288,7 @@ tfoot td, table th{
 
 .form-grid legend{
     font-style: italic;
-    font-size: 1.7rem;
+    font-size: 1.7 rem;
     margin-bottom: 3rem;
 }
 .form-group{
@@ -297,6 +297,7 @@ tfoot td, table th{
 
 .form-group label{
     display: block;
+    margin-bottom: 1rem;
 }
 
 .form-group input, .form-group textarea{
@@ -305,6 +306,11 @@ tfoot td, table th{
     padding: 1.5rem 2rem;
     width: 100%;
     font-size: 3rem;
+    outline: none;
+}
+
+.form-group input:focus, .form-group textarea:focus{
+    box-shadow: 0.2rem 0.2rem 0.5rem var(--secondary-color );
 }
 
 .full-width{
@@ -330,4 +336,23 @@ tfoot td, table th{
 
 .form-group ::placeholder{
     color: var(--white-color);
+}
+
+.footer{
+    text-align: center;
+    height: 13rem;
+    font-size: 2rem;
+}
+
+.footer p{
+    margin: 0;
+    padding: 5rem;
+}
+
+.footer a{
+    color: var(--secondary-color);
+}
+
+.heart{
+    color: var(--secondary-color);
 }
