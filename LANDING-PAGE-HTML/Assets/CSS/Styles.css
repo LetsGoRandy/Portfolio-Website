@@ -269,7 +269,7 @@ tfoot td, table th{
 .contact-content{
     position: relative;
     display: grid;
-    grid-template-columns: 1fr 1.5fr;
+    grid-template-columns: 1fr;
     gap: var(--gap);
     min-height: 100vh;
 }
@@ -355,4 +355,80 @@ tfoot td, table th{
 
 .heart{
     color: var(--secondary-color);
+}
+
+.close-menu{
+    display: none;
+}
+
+.back-to-top{
+    position: fixed;
+    bottom: 2rem;
+    right: 4rem;
+    background: var(--white-color);
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: var(--primary-color);
+    transform: rotate(-90deg);
+    border: 0.1rem solid var(--primary-color);
+}
+
+@media (max-width:80rem){
+    .menu-spacing{
+        display: none;
+    }
+
+    .home-content, .top3, .gallery, .contact-content{
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-img{
+        width: 100% ;
+        max-width: 100% ;
+        max-height: auto;
+    }
+
+    .gallery img{
+        width: 100%;
+    }
+
+    .menu{
+        bottom: 0;
+        text-align: center;
+        display: none;
+    }
+
+    .menu-content, .menu-content ul{
+        flex-direction: column;
+        height: 100vh;
+    }
+    
+    .close-menu-label::after{
+        content: "≡";
+        position: fixed;
+        z-index: 2;
+        top: 1rem;
+        right: 5rem;
+        font-size: 4rem;
+        line-height: 4rem;
+        width: 4rem;
+        height: 4rem;
+        text-align: center;
+        padding: 0.5rem;
+        cursor: pointer;
+        background: var(--primary-color );
+        color: var(--white-color);
+    }
+
+    .close-menu:checked~.menu{
+        display: block;
+    }
+
+    .close-menu:checked~.close-menu-label::after{
+        content: "X";
+    }
 }

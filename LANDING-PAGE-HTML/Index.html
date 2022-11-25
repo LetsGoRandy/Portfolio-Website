@@ -10,16 +10,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
-<body>
 
-  <aside class="menu white-bg">
-    <div class="main-content menu-content">
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label for="close-menu" class="close-menu-label" title="close menu"></label>
+    <aside class="menu white-bg">
+    <div class="main-content menu-content" >
         <div class="logo-img">
-            <a href="#home"><img src="../LANDING-PAGE-HTML/Assets/IMG/Logo INNKERcode.png" alt="" srcset=""></a>
+            <a href="#home" onclick="getElementById('close-menu').checked = false;"><img src="../LANDING-PAGE-HTML/Assets/IMG/Logo INNKERcode.png" alt="" srcset=""></a>
         </div>
 
         <nav>
-            <ul>
+            <ul onclick="getElementById('close-menu').checked = false;">
                 <li><a href="#intro">Intro</a></li>
                 <li><a href="#top3">Top 3</a></li>
                 <li><a href="#gallery ">Gallery</a></li>
@@ -28,11 +30,11 @@
             </ul>
         </nav>
     </div>
-  </aside>
+    </aside>
 
-  <div class="menu-spacing"></div>
+    <div class="menu-spacing"></div>
 
-  <section id="home" class="home main-bg section">
+    <section id="home" class="home main-bg section">
     <div class="main-content home-content">
         <div class="home-text-content">
             <h2>January brings us firefox 85</h2>
@@ -42,9 +44,9 @@
             <img src="./Assets/IMG/Javascript-not-optimized.svg" alt="logo html, css e js" srcset="">
         </div>
     </div>
-  </section>
+    </section>
   
-  <section id="intro" class="section white-bg">
+    <section id="intro" class="section white-bg">
        <div class="main-content intro-content">
         <h2>Introduction</h2>
         <p>
@@ -57,8 +59,9 @@
             We'll then explain hou DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and discuss various updater problems we had to deal with. We'll conclude with the release and an overview of various other improvements thar are in the pipeline.
         </p>
        </div>
-  </section>
-  <section id="top3" class="section main-bg">
+    </section>
+
+    <section id="top3" class="section main-bg">
     <div class="main-content top3-content">
         <h2 class="top3-main-heading">top 3 jobs</h2>
         <p class="top3-description">Here are some recent work</p>
@@ -77,8 +80,9 @@
             </article>
         </div>
     </div>
-  </section>
-  <section id="gallery" class="section white-bg">
+    </section>
+
+    <section id="gallery" class="section white-bg">
     <div class="main-content galery-content">
         <h2 class="gallery-main-heading">Gallery</h2>
         <p class="gallery-description">Here are some recent images</p>
@@ -103,14 +107,15 @@
             </div>
         </div>
     </div>
-  </section>
-  <section id="work" class="section main-bg">
+    </section>
+
+    <section id="work" class="section main-bg">
     <div class="main-content work-content">
         <div>
             <h2>Pricing Work</h2>
             <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some background information on the experience of porting Firefox to run natively on these CPUs.</p>
         </div>
-        <div class="main-content responsive-table">
+        <div class="responsive-table">
             <table>
                 <caption>Pricing Table</caption>
                 <thead>
@@ -157,8 +162,9 @@
             </table>
         </div>
     </div>
-</section>
-<section id="contact" class="contact white-bg section">
+    </section>
+
+    <section id="contact" class="contact white-bg section">
     <div class="main-content contact-content">
         <div class="contact-text-content">
             <h2>January brings us firefox 85</h2>
@@ -196,9 +202,12 @@
             </fieldset>
         </div>
     </div>
-</section>
-<footer id="footer" class="footer main-bg">
+    </section>
+
+    <footer id="footer" class="footer main-bg">
     <p>Feito com <span class="heart">❤</span> por: <a rel="nofollow" target="_blank" href="https://www.instagram.com/soudygomes/">INNKER.code</a></p>
-</footer>
+    </footer>
+    <a href="#" class="back-to-top">➤</a>
 </body>
+
 </html>
