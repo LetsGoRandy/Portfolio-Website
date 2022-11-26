@@ -378,6 +378,14 @@ tfoot td, table th{
 }
 
 @media (max-width:80rem){
+    h2{
+        font-size: 4rem;
+    }
+
+    h3{
+        font-size: 3rem;
+    }
+
     .menu-spacing{
         display: none;
     }
