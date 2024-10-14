@@ -1,21 +1,21 @@
-Portfólio de Desenvolvedor Web Fullstack Júnior
+#Portfólio de Desenvolvedor Web Fullstack Júnior
 
 Seja bem-vindo ao meu portfólio! Sou um desenvolvedor web fullstack júnior apaixonado por criar soluções digitais incríveis. Meu foco está na combinação poderosa de Angular e Java para desenvolver aplicativos web completos. Aqui estão alguns destaques do meu trabalho:
 
-Sobre Mim
+##Sobre Mim
 Sou um entusiasta da tecnologia com uma paixão por resolver problemas complexos. Minha jornada começou com o aprendizado de HTML, CSS e JavaScript, e desde então, venho aprimorando minhas habilidades em desenvolvimento front-end e back-end.
 
-Tecnologias
+##Tecnologias
 Angular: Adoro criar interfaces interativas e responsivas usando o Angular. Minhas habilidades incluem componentes, roteamento, serviços e integração com APIs RESTful.
 Java: Como entusiasta do Java, tenho experiência em desenvolvimento back-end. Trabalho com Spring Boot, Hibernate e outras ferramentas para criar APIs robustas e escaláveis.
 
-Projetos
+##Projetos
 Aqui estão alguns dos projetos que desenvolvi:
 
 
 
 
-Contato
+##Contato
 Se você gostaria de saber mais sobre mim ou discutir oportunidades de colaboração, sinta-se à vontade para entrar em contato através do meu e-mail: .
 
 Obrigado por visitar meu portfólio! Espero que goste do que viu. 😊
