@@ -1,4 +1,4 @@
-# Portfólio de Desenvolvedor Web Fullstack Júnior
+# Portfólio Desenvolvedor Fullstack 
 
 Seja bem-vindo ao meu portfólio! Sou um desenvolvedor web fullstack júnior apaixonado por criar soluções digitais incríveis. Meu foco está na combinação poderosa de **Angular** e **Java** para desenvolver aplicativos web completos. Aqui estão alguns destaques do meu trabalho:
 
